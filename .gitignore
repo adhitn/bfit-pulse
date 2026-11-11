@@ -1,0 +1,32 @@
+# Dependencies and generated output anywhere in this monorepo
+node_modules/
+dist/
+.next/
+.vinext/
+.build/
+*.app/
+*.tsbuildinfo
+next-env.d.ts
+coverage/
+.wrangler/
+.sites-runtime/
+
+# Local configuration and private material
+.env*
+.dev.vars*
+!.env.example
+*.pem
+*.key
+*.p12
+*.mobileprovision
+*.sqlite
+*.sqlite3
+*.db
+.DS_Store
+.codex/
+.agents/
+
+# Logs and workspace scratch
+*.log
+/work/
+/outputs/
